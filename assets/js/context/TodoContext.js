@@ -7,7 +7,9 @@ class TodoContextProvider extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            todos: [],
+            todos: [
+                {title: 'Take trash'}
+            ],
         };
     }
 
